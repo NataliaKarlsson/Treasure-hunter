@@ -95,7 +95,7 @@ function getImageFromPexels(e) {
   xhr.send();
   xhr.addEventListener('load', function(){
     let imgePexels= JSON.parse(this.response);
-    e.target.src=imgePexels.photos[10].src.small;
+    e.target.src=imgePexels.photos[9].src.small;
   });
 
 
